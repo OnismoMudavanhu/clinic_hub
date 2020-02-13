@@ -1,0 +1,29 @@
+clinic hub
+
+web, jpa, mysql driver
+
+Entities
+........
+patients(name, id,surname, dob, membership_no, phone, address, sex)
+doctors(name, id,surname, dob, phone, address, sex, speciality)
+reception(id, date, patient_id, reason)
+consultation(id, date, patient_id, weight, temp, bp, height)
+treatment(id, doctor_id, patient_id, disease)
+users(id, name, surname, role
+
+
+
+service
+.........
+getAll patients
+getPatientById
+addPatient
+deletePatient
+updatePatient
+
+addconsultation
+deleteConsultation
+updateConsultation
+getAllConsultation
+getConsultationById
+
